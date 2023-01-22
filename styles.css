@@ -543,7 +543,6 @@ footer {
   .about-card {
     gap: 40px;
   }
-
   .about-content > h2 {
     font-size: 32px;
   }
@@ -553,7 +552,12 @@ footer {
   }
 
   .about-content > p {
+
     font-size: 16px;
+  }
+
+  .download-button {
+    font-size: 22px;
   }
 
   .tech-stack-section {
