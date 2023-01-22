@@ -26,7 +26,7 @@ navToggle.addEventListener("click", () => {
   });
 });
  var typed = new Typed(".typing", {
-        strings: ["web designer","graphic designer", "computer technician","front-end developer"],
+        strings: ["front-end developer","web designer","graphic designer", "computer technician"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
