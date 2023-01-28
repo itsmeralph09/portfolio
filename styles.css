@@ -493,6 +493,8 @@ section {
   flex-direction: column;
   gap: 8px;
   margin-top: 1.5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .contact-links > a {
@@ -505,14 +507,18 @@ section {
 .contact-links > a:visited {
   color: var(--secondary-color);
 }
+.contact-links img{
+  width: 40px;
+  height: 40px;
+}
 
 .contact-icons {
-  --size: 40px;
+  --size: 30px;
   width: var(--size);
-  aspect-ratio: 1;
   margin-left: 1.5em;
   margin-bottom: 1em;
-  border-radius: 50%;
+  filter: invert(14%) sepia(10%) saturate(689%) hue-rotate(131deg) brightness(91%) contrast(82%);
+  align-items: center;
 }
 
 /* extras */
@@ -534,7 +540,7 @@ footer {
   justify-content: center;
 
   max-width: 100vw;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   min-height: 150px;
 }
 
@@ -547,7 +553,7 @@ footer {
 }
 
 .footer-content > a {
-  text-decoration: underline;
+  text-decoration: none ;
 }
 
 .footer-content > a:link,
