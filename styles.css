@@ -410,7 +410,6 @@ section {
 
 #skills {
   padding: 2rem;
-  margin-top: 36px;
   animation: fade-in 500ms linear forwards;
 }
 
@@ -636,6 +635,9 @@ footer {
   .contact-content > a{
     font-size: 10px;
   }
+  .contact-icons{
+    width: 30px;
+  }
   .section-highlight {
     font-size: 3.5rem;
     top: -16px;
@@ -664,8 +666,13 @@ footer {
   }
    .tech-stack-grid {
     width: 100%;
+   }
+  .contact-content > a{
+    font-size: 10px;
   }
-
+  .contact-icons{
+    width: 30px;
+  }
   .section-highlight {
     top: -26px;
     left: 10vw;
@@ -783,6 +790,12 @@ footer {
 
   .contact-links > a {
     font-size: 16px;
+  }
+  .contact-content > a{
+    font-size: 16px;
+  }
+  .contact-icons{
+    width: 55px;
   }
   .footer-content,
   .footer-content > a {
