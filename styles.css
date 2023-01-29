@@ -1,4 +1,7 @@
+/* Roboto Mono Font fallback import */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap");
+
+/* CSS Reset */
 
 *,
 *::after,
@@ -25,7 +28,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Navbar styles */
+/* Header and Nav styling */
 
 header {
   display: flex;
@@ -116,6 +119,8 @@ h1 {
   right: 0;
 }
 
+/* Initial media query for mobile nav */
+
 @media only screen and (max-width: 35em) {
   .primary-nav {
     position: fixed;
@@ -164,7 +169,7 @@ h1 {
   }
 }
 
-/* Section styles */
+/* Section styling */
 
 section {
   display: flex;
@@ -176,9 +181,9 @@ section {
 }
 
 /* Home Styling */
+
 #hero {
   background-color: var(--primary-color);
-/*  border-bottom: 4px solid var(--secondary-color);*/
 }
 
 .hero-container {
@@ -286,7 +291,7 @@ section {
 .download-button {
   align-self: flex-start;
 
-  font-size: 18px;
+  font-size: 14px;
   padding: 1em;
 
   color: var(--primary-color);
@@ -297,8 +302,6 @@ section {
 
   transition: 300ms ease-in-out;
   margin: 1.5em 0em 1.5em 1em;
-
-  /*align-self: center;*/
 }
 
 .download-button:hover {
@@ -312,15 +315,14 @@ section {
   width: 90%;
   height: 90%;
   margin: 1em;
-  filter: grayscale(40%);
-  transition: 200ms ease-in-out;
+  filter: grayscale(30%);
+  transition: 250ms ease-in-out;
 }
 .tech-stack-section > img:hover{
   box-shadow: 10px 10px 0px var(--accent-1);
   filter: grayscale(0%);
   transform: scale(.98);
 }
-
 
 /* Portfolio Styling */
 
@@ -364,6 +366,8 @@ section {
 }
 
 .project-card > p {
+/*  text-align: justify;*/
+  text-indent: 5%;
   font-size: 12px;
   width: 100%;
   display: -webkit-box;
@@ -376,6 +380,13 @@ section {
   width: 100%;
   aspect-ratio: 16/9;
   border-radius: 8px;
+  transition: 250ms ease-in-out;
+}
+
+.project-img:hover{
+  box-shadow: 6px 6px 0px var(--accent-1);
+  transform: scale(.98);
+
 }
 
 .project-card-links {
@@ -399,6 +410,7 @@ section {
 
   font-size: 10px;
   gap: 4px;
+  text-decoration: underline;
 }
 
 .project-card-links > a:link,
@@ -450,14 +462,13 @@ section {
   font-weight: bold;
   color:  var(--secondary-color);
   text-indent: 4%;
-  text-align: justify;
+/*  text-align: justify;*/
 }
 .tech-stack-grid {
   width: 90%;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   place-items: center;
-/*  justify-content: center;*/
 }
 
 .tech-stack {
@@ -485,7 +496,7 @@ section {
   font-weight: bold;
   color:  var(--secondary-color);
   text-indent: 4%;
-  text-align: justify;
+  /*text-align: justify;*/
 }
 
 /* Contact Styling */
@@ -577,7 +588,7 @@ section {
   margin-left: 7%;
 }
 
-/* extras */
+/* extra styling */
 .section-highlight {
   font-size: 4rem;
   font-weight: 600;
@@ -589,7 +600,7 @@ section {
   left: 100px;
 }
 
-/* footer */
+/* footer styling */
 footer {
   display: flex;
   align-items: center;
@@ -617,7 +628,7 @@ footer {
   color: var(--accent-2);
 }
 
-/* media queries */
+/* media query */
 
 @media only screen and (max-width: 35em) {
   .hero-container {

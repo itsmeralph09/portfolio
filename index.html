@@ -3,12 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
     <link rel="stylesheet" type="text/css" href="./styles.css" />
-    <script src="script.js" defer></script>
+    <!-- Roboto Mono Font import -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap">
+    <script src="./script.js" defer></script>
     <script src="./typed.min.js"></script>
     <title>Outlines Portfolio</title>
   </head>
   <body>
+
+<!-- Header and Nav start -->
     <header>
       <nav class="navbar-nav">
         <div class="nav-logo">
@@ -38,7 +43,11 @@
         </ul>
       </nav>
     </header>
+<!-- Header and Nav end -->
+
     <main>
+
+<!-- Home Hero Section start-->
       <section id="hero">
         <div class="hero-container">
           <div class="hero-text-container">
@@ -49,7 +58,9 @@
           <a href="#about" class="hero-button">Read More</a>
         </div>
       </section>
+<!-- Home Hero Section end-->
 
+<!-- About Section start -->
       <section id="about">
         <div class="section-highlight">ABOUT</div>
         <div class="about-container">
@@ -62,9 +73,7 @@
               <p class="info-list"> > Age: 21</p>
               <p class="info-list"> > Birthdate: May 9, 2001</p>
               <p class="info-list"> > Address: Taugtog, Botolan, Zambales</p>
-              
-              <a href="#contact" class="download-button">Download CV</a>
-              
+              <a href="#" class="download-button">Download CV</a>
             </div>
             <div class="about-content tech-stack-section">
               <img src="./assets/images/profile.jfif" alt="profile photo" class="profilepic" />
@@ -72,26 +81,26 @@
           </div>
         </div>
       </section>
+<!-- About Section end -->
+
+<!-- Portfolio Section start -->
       <section id="portfolio">
         <div class="section-highlight">PORTFOLIO</div>
         <div class="portfolio-container">
           <div class="portfolio-card">
             <div class="portfolio-content">
               <h2># <u>Portfolio</u></h2>
-              <!-- input projects inside project container -->
               <div class="project-container">
                 <div class="project-card">
                   <img
                   class="project-img"
-                  src="./assets/images/outlines-preview.png"
+                  src="./assets/images/qrcode.png"
                   alt="project-1"
                   />
-                  <h3>Project name</h3>
+                  <h3>QR Code Component</h3>
                   <h5>> Project description</h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque egestas ornare lorem ullamcorper gravida. In
-                    venenatis in diam ut tempor.
+                    A Front-end Mentor challenge to build a component for QR Code Card using styled components.
                   </p>
                   <div class="project-card-links">
                     <a href="#">
@@ -108,7 +117,7 @@
                       src="./assets/icons/github-icon.svg"
                       alt="live-demo"
                       />
-                      Repo
+                      Repository
                     </a>
                   </div>
                 </div>
@@ -118,12 +127,39 @@
                   src="./assets/images/desktop-design.png"
                   alt="project-1"
                   />
-                  <h3>Advice Generator</h3>
+                  <h3>Advice Generator App</h3>
                   <h5>> Project description</h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque egestas ornare lorem ullamcorper gravida. In
-                    venenatis in diam ut tempor.
+                   A Front-end Mentor challenge to build an Advice Generator App using Advice Slip Api.
+                  <div class="project-card-links">
+                    <a href="#">
+                      <img
+                      class="project-icons"
+                      src="./assets/icons/live-demo.svg"
+                      alt="live-demo"
+                      />
+                      Demo
+                    </a>
+                    <a href="#">
+                      <img
+                      class="project-icons"
+                      src="./assets/icons/github-icon.svg"
+                      alt="live-demo"
+                      />
+                      Repository
+                    </a>
+                  </div>
+                </div>
+               <!--  <div class="project-card">
+                  <img
+                  class="project-img"
+                  src="./assets/images/qrcode.png"
+                  alt="project-1"
+                  />
+                  <h3>QR Code Component</h3>
+                  <h5>> Project description</h5>
+                  <p>
+                    A Front-end Mentor challenge to build a component for QR Code Card.
                   </p>
                   <div class="project-card-links">
                     <a href="#">
@@ -140,15 +176,18 @@
                       src="./assets/icons/github-icon.svg"
                       alt="live-demo"
                       />
-                      Repo
+                      Repository
                     </a>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
         </div>
       </section>
+<!-- Portfolio Section end -->
+
+<!-- Skills Section start -->
       <section id="skills">
         <div class="section-highlight">SKILLS</div>
         <div class="skills-container">
@@ -187,7 +226,7 @@
             </div>
             <div class="skills-content tech-stack-section">
               <p class="skills-tool-text">
-                > Tools and Software I Use
+                > Tools and Software That I Use
               </p>
               <div class="tech-stack-grid">
                 <div class="tech-stack">
@@ -219,14 +258,15 @@
           </div>
         </div>
       </section>
+<!-- Skills Section end -->
 
-      
+<!-- Contact Section start -->
       <section id="contact">
         <div class="section-highlight">CONTACTS</div>
         <div class="contact-container">
           <div class="contact-card">
             <h2># <u>Contacts</u></h2>
-            <p>> My Contact and Social Media Handles</p>
+            <p>> My Contacts and Social Media Handles</p>
             <div class="contact-links">
               <div class="contact-content">
                 <img
@@ -287,12 +327,18 @@
           </div>
         </div>
       </section>
+<!-- Contact Section end -->
+
     </main>
+
+<!-- Footer start -->
     <footer>
       <div class="footer-content">
         All Rights Reserved &copy;
         <a href="https://github.com/itsmeralph09" target="_blank">Ralph Custodio</a>
       </div>
     </footer>
+<!-- Footer end -->
+
   </body>
 </html>
