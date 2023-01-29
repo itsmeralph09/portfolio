@@ -207,15 +207,6 @@ section {
   margin-top: 36px;
   animation: fade-in 500ms linear forwards;
 }
-
-.wave-asset {
-  width: 100%;
-  position: absolute;
-
-  top: 0;
-  left: 0;
-}
-
 .about-container {
   display: flex;
   align-items: center;
@@ -280,7 +271,7 @@ section {
   box-shadow: 4px 4px 0px var(--primary-color);
 
   transition: 300ms ease-in-out;
-  margin: 1.5em 0em 1.5em 1.5em;
+  margin: 1.5em 0em 1.5em 1em;
 
   /*align-self: center;*/
 }
@@ -295,7 +286,7 @@ section {
   box-shadow: 4px 4px 0px var(--primary-color);
   width: 90%;
   height: 90%;
-  margin: 5%;
+  margin: 1em;
 }
 
 
@@ -413,7 +404,9 @@ section {
 
   box-shadow: 6px 6px 0px var(--accent-1);
 }
-
+.skills-content > h2 {
+  color: var(--primary-color);
+}
 .skills-content{
   width: 100%;
   display: flex;
@@ -433,6 +426,7 @@ section {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   place-items: center;
+  justify-content: center;
 }
 
 .tech-stack {
@@ -441,8 +435,8 @@ section {
   aspect-ratio: 1;
 }
 .tech-stack > img{
-  width: 32px;
-  height: 32px;
+  width: 35px;
+  height: 35px;
   margin-top: 1em;
 }
 .tech-stack > p{
@@ -489,36 +483,29 @@ section {
 }
 
 .contact-links {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-top: 1.5em;
   display: grid;
+  width: 100%;
+  gap: 8px;
+  margin-top: 1em;
+  margin-bottom: 2em;
   grid-template-columns: repeat(2, 1fr);
 }
-
-.contact-links > a {
+.contact-content{
+  border: 1px solid green;
   display: flex;
   align-items: center;
-  gap: 8px;
+  margin-bottom: 1em;
 }
 
-.contact-links > a:link,
-.contact-links > a:visited {
+.contact-content > a:link,
+.contact-content > a:visited {
   color: var(--secondary-color);
 }
-.contact-links img{
-  width: 40px;
-  height: 40px;
-}
-
 .contact-icons {
-  --size: 30px;
+  --size: 40px;
   width: var(--size);
-  margin-left: 1.5em;
-  margin-bottom: 1em;
   filter: invert(14%) sepia(10%) saturate(689%) hue-rotate(131deg) brightness(91%) contrast(82%);
-  align-items: center;
+  margin-left: 7%;
 }
 
 /* extras */
@@ -575,6 +562,9 @@ footer {
   .tech-stack-grid {
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .contact-content > a{
+    font-size: 10px;
   }
   .section-highlight {
     font-size: 3.5rem;
