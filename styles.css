@@ -102,9 +102,11 @@ h1 {
   overflow: hidden;
 }
 .nav-link-active {
-  color: #1e1e1e;
-  background: white;
+  font-weight: 700;
+  color: var(--accent-1);
 }
+
+.nav-link-active:before,
 .nav-link:before {
   content: "";
   position: absolute;
@@ -132,7 +134,7 @@ h1 {
   font-weight: 700;
   color: var(--accent-1);
 }
-.nav-link:hover:before, .nav-link:focus:before, .nav-link:active:before {
+.nav-link:hover:before, .nav-link:focus:before, .nav-link:active:before,.nav-link-active:before {
   right: 0;
 }
 
