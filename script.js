@@ -31,16 +31,6 @@ navToggle.addEventListener("click", () => {
         backSpeed: 60,
         loop: true
     });
-const navbar = document.querySelector('header');
-let top1 = navbar.offsetTop;
-function stickynavbar() {
-  if (window.scrollY >= top1) {    
-    navbar.classList.add('sticky');
-  } else {
-    navbar.classList.remove('sticky');    
-  }
-}
-window.addEventListener('scroll', stickynavbar);
 
 let navbar1 = document.getElementById("primary-nav");
 let viewportHeight = window.innerHeight;
@@ -52,7 +42,7 @@ window.addEventListener("scroll", e => {
   scrollpos = window.scrollY;
   navbarLinks.forEach(link => {
     let section = document.querySelector(link.hash);
-    if (section.offsetTop <= scrollpos + 130 &&
+    if (section.offsetTop <= scrollpos + 140 &&
         section.offsetTop + section.offsetHeight > scrollpos + 130) {
       link.classList.add("nav-link-active");
     } else {
@@ -60,3 +50,14 @@ window.addEventListener("scroll", e => {
     }
   });
 });
+
+ window.addEventListener('scroll',(e)=>{
+        const nav = document.querySelector('header');
+        if(window.pageYOffset>0){
+          nav.classList.add("add-shadow");
+          nav.classList.add("sticky");
+        }else{
+          nav.classList.remove("add-shadow");
+          nav.classList.add("sticky");
+        }
+      });

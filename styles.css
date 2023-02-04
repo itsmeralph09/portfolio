@@ -65,6 +65,10 @@ h1 {
   z-index: 9999;
   height: 10vh;
 }
+.add-shadow{
+  box-shadow: rgba(60, 64, 67, 0.5) 0px 1px 2px 0px;
+}
+
 
 .nav-logo {
   grid-column: 1;
