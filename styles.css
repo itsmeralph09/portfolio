@@ -639,7 +639,8 @@ footer {
 }
 
 .footer-content > a {
-  text-decoration: none ;
+  text-decoration: underline;
+  font-size: 12px;
 }
 
 .footer-content > a:link,
