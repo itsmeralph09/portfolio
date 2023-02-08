@@ -75,7 +75,8 @@ h1 {
 }
 
 .nav-logo > img {
-  margin-top: .4rem;
+  margin-top: auto;
+  margin-bottom: auto;
   width: 60px;
   height: 60px;
 }
@@ -180,7 +181,8 @@ h1 {
 
     border: none;
 
-    top: 1.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
     right: 2.5rem;
     z-index: 10000;
 
