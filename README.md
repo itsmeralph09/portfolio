@@ -13,7 +13,7 @@ The portfolio includes the following sections:
 - Contact: A section with my contact information.
 
 ## Usage
-To view the portfolio, simply open the index.html file in your web browser. Alternatively, you can view it online by visiting [insert link to online version, if applicable].
+To view the portfolio, simply open the index.html file in your web browser. Alternatively, you can view it online by visiting https://itsmeralph09.github.io/portfolio
 
 ## Contributions
 Contributions are not currently being accepted for this project, as it is intended to showcase my own work. However, I welcome any feedback or suggestions for improvement.
