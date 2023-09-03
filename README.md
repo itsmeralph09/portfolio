@@ -6,7 +6,7 @@ The portfolio is built using HTML, CSS, and JavaScript.
 
 ## Mockup Design
 <img
-  src="/path/to/img.jpg"
+  src="/mockup/mockup_desktop_view.jpg"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
