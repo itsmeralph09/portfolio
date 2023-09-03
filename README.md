@@ -7,10 +7,10 @@ The portfolio is built using HTML, CSS, and JavaScript.
 ## Mockup Design
 <img
   src="/mockup/mockup_desktop_view.jpg"
-  alt="Alt text"
+  alt="Mockup Design"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
-
+  style="display: inline-block; margin: 0 auto; max-width: 200px">
+  #### A link to the psd file can be found [here](https://github.com/itsmeralph09/portfolio/blob/main/mockup/mockup_desktop_view.psd)
 ## Features
 The portfolio includes the following sections:
 
